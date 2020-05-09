@@ -1,6 +1,7 @@
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
+const port = process.env.PORT || 3000;
 
 const json = fs.readFileSync(`${__dirname}/data/data.json`, `utf-8`);
 const laptopData = JSON.parse(json);
@@ -54,10 +55,6 @@ const server = http.createServer((req, res) => {
     }
 });
 
-server.listen(4000, '127.0.0.1', () => {
-    console.log('Listening for requests now');
-});
-
 function replaceTemplate(originalHtml, laptop) {
     let output = originalHtml.replace(/{%PRODUCTNAME%}/g, laptop.productName);
     output = output.replace(/{%IMAGE%}/g, laptop.image);
@@ -71,3 +68,7 @@ function replaceTemplate(originalHtml, laptop) {
 
     return output;
 };
+
+server.listen(port,() => {
+    console.log(`Server running at port `+port);
+});
