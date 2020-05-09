@@ -6,7 +6,7 @@ This is a [Demo Project](https://laptop-store-project.herokuapp.com) made with [
 
 ## Purpose
 
-Introduction to Node.js
+Brief Demo to NodeJS
 
 ## Resources
 
