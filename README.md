@@ -1,3 +1,5 @@
+[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://laptop-store-project.herokuapp.com)
+
 # Laptop-Store-Project
 
 This is a [Demo Project](https://laptop-store-project.herokuapp.com) made with [Udemy Complete Javascript Course](https://github.com/jonasschmedtmann/complete-javascript-course).
