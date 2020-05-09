@@ -8,6 +8,15 @@ This is a [Demo Project](https://laptop-store-project.herokuapp.com) made with [
 
 Brief Demo to NodeJS
 
+## Start locally
+
+To run the project locally, use the `start` command.
+
+```bash
+npm start
+```
+
+
 ## Resources
 
 http://codingheroes.io/resources
